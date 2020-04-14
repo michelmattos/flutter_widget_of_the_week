@@ -30,7 +30,7 @@ class _ExampleScreenState extends State<ExampleScreen> {
         actions: <Widget>[
           Row(
             children: <Widget>[
-              Icon(Icons.report_problem),
+              Icon(Icons.error),
               Switch(
                 value: !showProblem,
                 onChanged: (_) => toggleView(),

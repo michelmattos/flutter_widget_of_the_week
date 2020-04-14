@@ -5,7 +5,7 @@ class SafeAreaExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ExampleScreen(
-      title: 'Safe Area Example',
+      title: 'SafeArea Example',
       withProblem: _WithProblem(),
       withSolution: _WithSolution(),
     );
